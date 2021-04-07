@@ -1,0 +1,18 @@
+
+31. Executing CHECK pass (checking for obvious problems).
+checking module i2c_master_top..
+Warning: Wire i2c_master_top.\wb_inta_o is used but has no driver.
+Warning: Wire i2c_master_top.\wb_dat_o [7] is used but has no driver.
+Warning: Wire i2c_master_top.\wb_dat_o [6] is used but has no driver.
+Warning: Wire i2c_master_top.\wb_dat_o [5] is used but has no driver.
+Warning: Wire i2c_master_top.\wb_dat_o [4] is used but has no driver.
+Warning: Wire i2c_master_top.\wb_dat_o [3] is used but has no driver.
+Warning: Wire i2c_master_top.\wb_dat_o [2] is used but has no driver.
+Warning: Wire i2c_master_top.\wb_dat_o [1] is used but has no driver.
+Warning: Wire i2c_master_top.\wb_dat_o [0] is used but has no driver.
+Warning: Wire i2c_master_top.\wb_ack_o is used but has no driver.
+Warning: Wire i2c_master_top.\sda_padoen_o is used but has no driver.
+Warning: Wire i2c_master_top.\sda_pad_o is used but has no driver.
+Warning: Wire i2c_master_top.\scl_padoen_o is used but has no driver.
+Warning: Wire i2c_master_top.\scl_pad_o is used but has no driver.
+found and reported 14 problems.

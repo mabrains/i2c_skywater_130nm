@@ -1,0 +1,13 @@
+VPWR power 1.8
+VGND power 0.0
+#define std_input min@VGND max@VPWR
+arst_i input std_input
+scl_pad_i input std_input
+sda_pad_i input std_input
+wb_clk_i input std_input
+wb_cyc_i input std_input
+wb_rst_i input std_input
+wb_stb_i input std_input
+wb_we_i input std_input
+wb_adr_i[2:0] input std_input
+wb_dat_i[7:0] input std_input

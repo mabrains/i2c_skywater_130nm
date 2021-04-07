@@ -1,0 +1,19 @@
+Design Name: i2c_master_top
+Run Directory: /openLANE_flow/designs/i2c/runs/trial_run_2_clk_10_ns
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openLANE_flow/designs/i2c/runs/trial_run_2_clk_10_ns/reports/magic//39-magic.drc
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openLANE_flow/designs/i2c/runs/trial_run_2_clk_10_ns/results/lvs/i2c_master_top.lvs_parsed.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openLANE_flow/designs/i2c/runs/trial_run_2_clk_10_ns/reports/routing//41-antenna.rpt
+Number of pins violated: 1
+Number of nets violated: 1
