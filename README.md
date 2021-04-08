@@ -30,3 +30,22 @@ I made 3 runs with small changes in configuration files listed below here in the
 |clk=20ns<br/>fp_util=49%|setup=0<br/>hold=0    |  0           |     0        |          0         |  
 |clk=10ns<br/>fp_util=40%|setup=0<br/>hold=0    |  0           |     0        |pins:1<br/>nets:1   |
 |clk=10ns<br/>fp_util=49%|setup=0<br/>hold=0    |  0           |     0        |pins:1<br/>nets:1   |
+
+The clean run is the first run.  
+The screenshots for it are as follows:  
+
+1. STA worst setup slack  
+![setup_slack_1](worst_setup_slack_1st_run_1.png)
+![setup_slack_2](worst_setup_slack_1st_run_2.png)
+
+2. STA worst hold slack  
+![hold_slack](hold_slack_1st_run.png)
+
+3. DRC
+![DRC_summary](DRC_for_3_runs.png)
+
+4. LVS
+![LVS_summary](LVS_for_3_runs.png)
+
+5. Antenna
+![Antenna_summary](Antenna_check_1st_run.png)
