@@ -25,6 +25,7 @@ The PnR flow is basically starting from a ready verilog behavioral code which is
 Here I ran the default flow of OpenLANE using **flow.tcl** script which automates all the flow steps by one command which is:  
 ./flow.tcl -design _<name_of_design_directory>_ -tag _<name_of_the_run>_  
 I made 3 runs with small changes in configuration files listed below here in the table:  
+### Flow Runs
 |    Env Variables       |    STA Violations    |DRC Violations|LVS Violations|Antenna Violations  |  
 |------------------------|----------------------|--------------|--------------|--------------------|  
 |clk=20ns<br/>fp_util=49%|setup=0<br/>hold=0    |  0           |     0        |          0         |  
@@ -49,3 +50,6 @@ The screenshots for it are as follows:
 
 5. Antenna
 ![Antenna_summary](Antenna_check_1st_run.png)
+
+1. Final GDS viewed by klayout
+![The_final_layout](final_layout.png)
